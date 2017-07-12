@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+div {
+  border: 1px solid black;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -46,29 +50,50 @@ header {
 }
 
 .maincontainer {
-    display: block;
-    border: 2px solid black;
-    width:  630;
-    height:  
-}
-
-.maincontainer.firstcolumn {
-    display: block;
-    width: 1170px;
-    height: auto;
-    border: 1px solid black;
-}
-
-.maincontainer.secondcolumn {
-    display: block;
-    width: 300px;
-    height: auto;
-    border: 1px solid black;
-}
-
-.maincontainer.thirdcolumn {
     display: flex;
-    width: 240px;
+    width:  1232px;
+    padding-top: 140px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto 78px auto;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    margin-right: 32px;
+}
+
+.first.column {
+    width: 630px;
     height: auto;
-    border: 1px solid black;
+}
+
+.headlinestory {
+    display: block;
+}
+
+.imagetext {
+    display: block;
+    justify-content: center;
+    font-weight: 12px;
+}
+
+.maintext {
+    display: block;
+    justify-content: center;
+}
+
+.subheading {
+    display: block;
+    font-weight: 16px;
+    font-style: bold;
+}
+
+.second.column {
+    width: 300px;
+}
+
+.third.column {
+    width: 240px;
 }
