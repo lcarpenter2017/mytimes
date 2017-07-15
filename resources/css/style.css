@@ -137,6 +137,72 @@ header {
 }
 
 .third {
-    width: 240px;
-    margin-right: 32px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
+
+h3 {
+    margin-bottom: 41px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.newsbites {
+    display: block;
+    margin: auto;
+}
+
+.bite {
+    display: flex;
+    justify-content: flex-start;
+    background-color: WhiteSmoke;
+    border-bottom: 1px solid black;
+    padding: 11px 20px;
+    font-family: Verdana;
+    font-size: 12px;
+    color: DimGray;
+    margin: auto;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:  center;
+    align-content: center;
+    background-color: MediumAquamarine;
+    margin: auto;
+    width: 100%;
+    height: 325px;
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+.mytimes {
+    display: block;
+    margin: auto;
+}
+
+.footertitle {
+    display: inline-block;
+    padding-right: 25px;
+    border-right: 2px white solid;
+    color: white;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+footer nav {
+    display: block;
+    padding-left: 25px;
+}
+
+.copyright {
+    display: block;
+    margin: auto;
+}
+
