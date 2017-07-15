@@ -2,10 +2,6 @@ body {
     margin: 0;
 }
 
-div {
-  border: 1px solid black;
-}
-
 header {
     display: flex;
     align-items: center;
@@ -51,49 +47,96 @@ header {
 
 .maincontainer {
     display: flex;
+    flex-direction: row;
     width:  1232px;
-    padding-top: 140px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin: 0 auto 78px auto;
+    padding-top: 116px;
+    margin: 0 auto;
 }
 
-.column {
-    display: flex;
-    flex-direction: row;
+.first {
+    width: 630px;
     margin-right: 32px;
 }
 
-.first.column {
-    width: 630px;
-    height: auto;
+.leadstory {
+    display: flex;
+    flex-direction: column;
 }
 
-.headlinestory {
-    display: block;
+.leadimage {
+    background-image: url(../images/img-story-main.png);
 }
 
-.imagetext {
-    display: block;
-    justify-content: center;
-    font-weight: 12px;
+.leadimage.caption {
+    display: flex;
+    height: 300px;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 40px; 
+    color: white;
+    text-align: left;
 }
 
-.maintext {
-    display: block;
-    justify-content: center;
+.column1stories {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 17px;
+    align-content: center;
 }
 
-.subheading {
-    display: block;
-    font-weight: 16px;
-    font-style: bold;
+.stories {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    align-items:center;
 }
 
-.second.column {
+.earthspins {
+    background-image: url(../images/img-story-2.png);
+}
+
+.imagecaption {
+    display: flex;
+    margin-top: 15px;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.earthspins.imagecaption {
+    height: 300px;
     width: 300px;
 }
 
-.third.column {
+.research {
+    background-image: url(../images/img-story-3.png);
+}
+
+.research.imagecaption {
+    height: 300px;
+    width: 300px;
+}
+
+.second {
+    width: 300px;
+    margin-right: 32px;
+}
+
+.cats {
+    background-image: url(../images/img-story-1.png);
+}
+
+.cats.imagecaption {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+}
+
+.third {
     width: 240px;
+    margin-right: 32px;
 }
