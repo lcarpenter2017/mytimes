@@ -17,6 +17,13 @@ header {
     z-index: 1;
 }
 
+.narrative {
+    display: block;
+    margin-top: 16px;
+    font-family: Georgia;
+    font-size: 17px;
+}
+
 .logo {
     display: flex;
     align-items: center;
@@ -74,7 +81,8 @@ header {
     font-weight: bold;
     font-size: 40px; 
     color: white;
-    text-align: left;
+    text-align: center;
+    align-items: center;
 }
 
 .column1stories {
@@ -89,7 +97,7 @@ header {
     flex-direction: column;
     justify-content: space-around;
     padding: 20px;
-    align-items:center;
+    align-items: center;
 }
 
 .earthspins {
@@ -98,6 +106,7 @@ header {
 
 .imagecaption {
     display: flex;
+    align-items: center;
     margin-top: 15px;
     font-family: Georgia;
     font-size: 30px;
@@ -138,8 +147,14 @@ header {
 
 .third {
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
     flex-direction: column;
-    margin: auto;
+    width: 240px;
+}
+
+img.cookie {
+height: 240px;
 }
 
 h3 {
@@ -151,29 +166,25 @@ h3 {
 
 .newsbites {
     display: block;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .bite {
     display: flex;
-    justify-content: flex-start;
     background-color: WhiteSmoke;
     border-bottom: 1px solid black;
     padding: 11px 20px;
     font-family: Verdana;
     font-size: 12px;
     color: DimGray;
-    margin: auto;
 }
 
 footer {
     display: flex;
-    align-items: center;
     flex-direction: column;
     justify-content:  center;
-    align-content: center;
+    align-items: center;
     background-color: MediumAquamarine;
-    margin: auto;
     width: 100%;
     height: 325px;
     font-family: Verdana;
@@ -182,11 +193,12 @@ footer {
 
 .mytimes {
     display: block;
-    margin: auto;
+    padding: 20px;
 }
 
 .footertitle {
     display: inline-block;
+    justify-content: center;
     padding-right: 25px;
     border-right: 2px white solid;
     color: white;
@@ -203,6 +215,5 @@ footer nav {
 
 .copyright {
     display: block;
-    margin: auto;
 }
 
