@@ -1,5 +1,6 @@
 body {
-    margin: 0;
+    margin: 0 auto;
+    justify-content: center;
 }
 
 header {
@@ -57,11 +58,11 @@ header {
     flex-direction: row;
     width:  1232px;
     padding-top: 116px;
-    margin: 0 auto;
+    margin: 0 auto 78px auto;
 }
 
 .first {
-    width: 630px;
+    min-width: 630px;
     margin-right: 32px;
 }
 
@@ -76,7 +77,9 @@ header {
 
 .leadimage.caption {
     display: flex;
+    width: 630px;
     height: 300px;
+    margin-top: 0;
     font-family: Georgia;
     font-weight: bold;
     font-size: 40px; 
@@ -86,26 +89,22 @@ header {
 }
 
 .column1stories {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 17px;
-    align-content: center;
+   display: flex;
+   justify-content: space-around;
+   margin-top: 17px;
 }
 
 .stories {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding: 20px;
-    align-items: center;
-}
-
-.earthspins {
-    background-image: url(../images/img-story-2.png);
+    width: 300px;
 }
 
 .imagecaption {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
     align-items: center;
     margin-top: 15px;
     font-family: Georgia;
@@ -116,33 +115,21 @@ header {
 }
 
 .earthspins.imagecaption {
-    height: 300px;
-    width: 300px;
-}
-
-.research {
-    background-image: url(../images/img-story-3.png);
+    background-image: url(../images/img-story-2.png);
 }
 
 .research.imagecaption {
-    height: 300px;
-    width: 300px;
+    background-image: url(../images/img-story-3.png);
 }
 
 .second {
-    width: 300px;
+    min-width: 300px;
     margin-right: 32px;
-}
-
-.cats {
-    background-image: url(../images/img-story-1.png);
+    justify-content: flex-start;
 }
 
 .cats.imagecaption {
-    display: flex;
-    justify-content: center;
-    height: 300px;
-    width: 300px;
+    background-image: url(../images/img-story-1.png);
 }
 
 .third {
@@ -150,11 +137,20 @@ header {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    width: 240px;
+    min-width: 240px;
 }
 
 img.cookie {
 height: 240px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
 }
 
 h3 {
